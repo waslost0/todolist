@@ -74,12 +74,6 @@
             $(".confirm-delete-form").attr("action", $(this).attr("href"));
         });
 
-        $(document).on('click', '#confirmDeleteButtonModal', function () {
-            const caller = $("#confirmDeleteButtonModal").closest(".modal").attr("caller-id");
-            console.log(caller);
-            console.log($("#".concat(caller)).attr("href"));
-            {#window.location = $("#".concat(caller)).attr("href");#}
-        });
     </script>
 
 
